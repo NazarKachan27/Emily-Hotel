@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {   
+    font-family: sans-serif;   
+    background-color: #f9f9f9;
+    width: 99.9%;  
+    overflow-x: hidden;
+}   
+header {    
+    height: 100%;   
+    width: 100%;   
+    background-size: cover;   
+}   
+.bgimage {
+  background-image: url(https://hotel.emilyresort.com.ua/uploads/IMG_0316.jpg);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  position: absolute;
+  background-attachment: fixed;
+}
+header h1 {   
+  font-family: "Raleway", sans-serif;  
+   color: white;   
+   font-weight: 600;   
+   font-size: 50px;   
+}   
+.logo {   
+  margin-left: 50%;  
+}   
+.header {   
+  margin-top: -40px;
+  margin-left: 5%;
+  align-self: center;
+  letter-spacing: 0.2em;
+} 
+.tel {   
+    color: white;   
+    font-family: 'Cera Pro', sans-serif;   
+    text-decoration: none;   
+    font-weight: bolder; 
+    font-size: 24px;   
+}   
+.description {   
+   font-family: 'Cera Pro', "Poppins", sans-serif;
+   float: right; 
+   color: #EEE; 
+   font-weight: 200;
+   letter-spacing: 0.04em;
+   font-size: 1.55em;
+   margin-right: 60px;
+   max-width: 580px;
+   align-self: end;
+   margin-top: -10px;
+   margin-bottom: 90px;
+}   
+ 
+main h1 {  
+    color: #333333;  
+    font-weight: 400;  
+    line-height: 1.5;  
+    margin-left: 132px;  
+    font-size: 45px;  
+}  
+
+footer { 
+   background-color: #282828; 
+   height: 400px; 
+   margin-left: -7.7px;
+   width: 99.9%;
+} 
+.footer-img { 
+   padding: 70px 0px 0px 50px; 
+} 
+.widget {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.widget-a1 {
+  margin-right: 20px;
+}
+footer a { 
+   color: rgba(255,255,255,0.75); 
+   text-decoration: none; 
+   text-align: center; 
+   font-size: 29px; 
+   line-height: 35px; 
+} 
+footer p { 
+   margin-bottom: 10px;   
+   color: rgba(255,255,255,0.75); 
+} 
+.footer-phone { 
+   margin: -140px 0px 0px 900px;
+} 
+.adress { 
+   text-align: center;
+   font-size: 20px; 
+   font-family: "Raleway", sans-serif;
+} 
+.route { 
+   font-style: normal; 
+   font-weight: normal; 
+   line-height: 24px; 
+   text-decoration: none; 
+   text-align: center;
+   margin-bottom: 100px; 
+   font-size: 20px; 
+} 
+.route:hover {  
+   border-bottom:1px solid #FFFFFF; 
+}  
+.copyrights { 
+   font-family: "Raleway", sans-serif;
+   font-size: 14px; 
+   line-height: 18px; 
+   color: #FFFFFF; 
+   margin-top: 70px; 
+   text-align: center; 
+} 
+.slider-container {
+   position: relative;
+   width: 600px; /* зменшуємо ширину */
+   height: 470px;
+   margin: 0 auto; /* центрування слайдів по горизонталі */
+ }
+ 
+ #slider1,
+ #slider3,
+ #slider5 {
+   float: left; /* Розміщення слайдерів зліва */
+ }
+ 
+ #slider2,
+ #slider4,
+ #slider6 {
+   float: right; /* Розміщення слайдерів справа */
+   margin-right: 45px;
+ }
+ .slider-container {
+   margin-left: 70px;
+ }
+ 
+ .slider {
+   margin-top: 50px;
+   display: block;
+   overflow: hidden;
+   height: auto;
+   max-width: 700px;
+   width: 100%;
+ }
+ 
+ .slide {
+   flex: 0 0 auto;
+   opacity: 0;
+   position: absolute;
+ }
+ 
+ .slide img {
+   width: 600px; /* Зменшуємо ширину зображень */
+   height: 400px;
+ }
+ 
+ .active {
+   animation: slideIn 2s ease forwards;
+ }
+ 
+ @keyframes slideIn {
+   from {
+     opacity: 0;
+     transform: translateX(0%);
+   }
+   to {
+     opacity: 1;
+     transform: translateX(0);
+   }
+ }
+ 
+ main {
+   width: 99.9999%;
+   max-width: 99.9999%;
+   height: 2950px;
+ }
+ 
+ 
+ .side-text-family {
+  background: #ffffff;
+  margin-top: 80px;
+  padding: 25px 35px;
+  width: 480px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+ }
+ .desc-family, .desc-lake, .desc-forest, .desc-cottage, .desc-lux, .desc-president-lux {
+  max-height: 150px;
+  overflow: auto;
+ }
+ .rooms-hotel {
+  margin-bottom: 40px;
+  font-size: 47px;
+  color: #333333;
+  font-weight: 599;
+  line-height: 1.5;
+  margin: 300px 0px 30px 70px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.06em;
+ }
+ .book {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  width: 215px;
+  height: 40px;
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #333333;
+  margin-top: 40px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+ .book:hover {
+  color: #555;
+}
+.book2 {
+  text-decoration: none;
+  padding: 15px 30px 15px 30px;
+  width: 280px;
+  justify-content: center;
+  letter-spacing: 3px;
+  height: 130px;
+  color:#ffffff;
+  transition: all .3s ease;
+  transition: all 0.2s ease-in-out;
+  background-color: #333333;
+  text-align: center;
+}
+.book2:hover {
+  background-color:#141414;
+}
+.subtitle {
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #555;;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;  
+  font-size: 14px;
+}
+.title {
+  font-weight: 570;
+  color: #555;
+  font-size: 23px;
+  line-height: 26px;
+  font-family: "Raleway", sans-serif;
+}
+.info-img img {
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width: 100%;
+}
+.title-wrap {
+  margin-bottom: 15px;
+}
+.desc-family p, .desc-lake p, .desc-forest p, .desc-cottage p, .desc-lux p, .desc-president-lux {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #555;
+  margin-bottom: 3px;
+}
+.option {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.option-item {
+  display: flex;
+  margin-bottom: 15px;
+}
+.text {
+  position: static;
+  font-size: 11px;
+  color: #555;
+  font-family: "Raleway", sans-serif;
+}
+.option-item img {
+  margin-right: 10px;
+  width: auto;
+}
+.side-text-lake, .side-text-cottage, .side-text-president-lux {
+  background: #ffffff;
+  margin-top: -420px;
+  margin-left: 67px;
+  padding: 25px 35px;
+  width: 480px;
+  height: 350px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.side-text-forest, .side-text-lux {
+  background: #ffffff;
+  margin-top: 540px;
+  padding: 25px 35px;
+  width: 480px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+ }
